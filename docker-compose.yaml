@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    image: kraiyani/node-todo-app-cicd:latest
+    image: kraiyani/node-todo-app:latest
     ports:
       - "8000:8000"
